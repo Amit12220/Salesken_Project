@@ -123,9 +123,9 @@ public class StudentUIController {
 		});
 
 		List<String> list1 = new ArrayList<>();
-		int count = 1;
+		int count = 0;
 		for (Map.Entry<String, Integer> name : l) {
-			if (count <= 2) {
+			if (count <3) {
 				list1.add(name.getKey());
 				count++;
 			}
